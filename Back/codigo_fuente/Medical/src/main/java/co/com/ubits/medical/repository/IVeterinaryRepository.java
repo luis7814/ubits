@@ -1,0 +1,9 @@
+package co.com.ubits.medical.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import co.com.ubits.medical.model.Veterinary;
+
+public interface IVeterinaryRepository extends JpaRepository<Veterinary, String> {
+
+}
